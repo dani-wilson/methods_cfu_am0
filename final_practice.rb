@@ -34,12 +34,17 @@ def greet_person(first_name, middle_name, last_name)
 end
 puts greet_person("Dani", "Rae", "Wilson")
 
-# 4: Write a method named square that takes in one integer, and returns the square of that integer.
+# 4: Write a method named square that takes in one integer, and returns the square 
+#of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
+def square(sqrt.num)
+    "The square root of #{num} is #{square}"
+end
+puts square(9)
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
