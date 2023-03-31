@@ -41,8 +41,8 @@ puts greet_person("Dani", "Rae", "Wilson")
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
-def square(sqrt.num)
-    "The square root of #{num} is #{square}"
+def square(num)
+    "The square root of #{num} is #{Math.sqrt(num)}"
 end
 puts square(9)
 
