@@ -38,9 +38,9 @@ puts greet_person("Dani", "Rae", "Wilson")
 #of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What is the return value of your method? The square root of 9 is 3.
+# How many arguments did you pass your method? 1
+# What data type was your argument(s)? integer
 def square(num)
     "The square root of #{num} is #{Math.sqrt(num)}"
 end
