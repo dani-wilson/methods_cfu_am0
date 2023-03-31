@@ -48,7 +48,23 @@ puts square(9)
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
-# Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
+# Hint: You will only write one check_stock method that checks the quantity 
+#and then prints the corresponding statement.
+
+
+
+def check_stock(num, item)
+    if num == 1
+        puts "#{item} - running low."
+    elsif num == 0
+        puts "#{item} - OUT of stock!"
+    elsif num == 3
+        puts "#{item} - running LOW"
+    elsif num >=4
+        puts "#{item} is stocked"
+    end
+end
+check_stock(5, "Tortillas")
 
 check_stock(4, "Coffee");
 # => "Coffee is stocked"
